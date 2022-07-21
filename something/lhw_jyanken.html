@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/lhw_jyanken.css">
+    <title>伏見ガクとじゃんけんをしよう！</title>
+</head>
+
+<body>
+
+    <div>
+        <h1 id="serif">伏見ガクとじゃんけんをしよう！</h1>
+    </div>
+
+    <div>
+        <p>あなたの手</p>
+        <button type="button" onclick="game(0)"> <img src="./janken_gu.png" alt="グー" width="100"></button>
+        <button type="button" onclick="game(1) "> <img src="./janken_choki.png" id="GAKU" alt="チョキ"
+                width="100"></button>
+        <button type="button" onclick="game(2)"> <img src="./janken_pa.png" alt="パー" width="100"></button>
+
+        <p id="choice" class="choice"></p>
+        <p id="result" class="result"></p>
+
+
+        <div id="bomb">
+            <video src="./bomb.mp4" width="350"></video>
+        </div>
+
+    </div>
+
+    <div>
+        <p id="gu-gaku">発言元：<a href="https://youtu.be/9x7QB3AhYbs">ARK|戦争の時。最後に笑うのは。【にじさんじ/叶】</a>5:40:16~</p>
+        <p id="pa-gaku">発言元：<a href="https://youtu.be/2WvwL47givM">【にじさんじ】おはガク!2020 6th 8 最高にためになる朝の45分</a>50:12~</p>
+    </div>
+
+    <p><a href="../index.html">トップに戻る</a></p>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="../JS/lhw_jyanken.js"></script>
+</body>
+
+</html>

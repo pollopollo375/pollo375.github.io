@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+html {
+    background-color: rgb(253, 255, 230);
+
+}
+
+.result,
+.choice {
+    font-size: 1.2em;
+    color: #FFCB5B;
+    font-weight: bold;
+}
